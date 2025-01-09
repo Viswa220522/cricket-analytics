@@ -1,0 +1,61 @@
+1. Create a team with best 11 players on year 2022?
+2. DATA - ICC Men's T20 World Cup, 2022
+3. What I am looking for a team
+	1. Team can score avg 180 runs		- 20 overs
+	2. Team can defend avg of 150 runs	- 20 overs
+-----------------------------------------------------------------------------
+OPENERS : (Players -3)
+
+	PARAMETERS		DESCRIPTION 				CRITERIA
+1.	Batting Average		Average runs scored in a inning		>30
+2. 	Strike rate		No of runs scored per 100 balls		>140
+3.	Innings Batted		Total Innings batted			>3
+4.	Boundary%		% of runs scored in boundaries		>50
+5.	Batting Position	Order in which the batter played	<4
+-----------------------------------------------------------------------------
+ANCHORS/MIDDLE ORDER : (Players -2)
+
+	PARAMETERS		DESCRIPTION 				CRITERIA
+1.	Batting Average		Average runs scored in a inning		>40
+2. 	Strike rate		No of runs scored per 100 balls		>130
+3.	Innings Batted		Total Innings batted			>3
+4.	Avg. Balls faces	Average balls faced by the 		>12
+				batter in an innings 
+5.	Boundary%		% of runs scored in boundaries		>30 - 40
+6.	Batting Position	Order in which the batter played	>=4
+7.	Innings bowled		Total inning Bowled by the bowler	>1
+-----------------------------------------------------------------------------
+FINISHER/LOWER ORDER ANCHOR : (Players -2) Batting Allrounders
+
+	PARAMETERS		DESCRIPTION 				CRITERIA
+1.	Batting Average		Average runs scored in a inning		>25
+2. 	Strike rate		No of runs scored per 100 balls		>130
+3.	Innings Batted		Total Innings batted			>3
+4.	Avg. Balls faces	Average balls faced by the 		>122
+				batter in an innings 
+5.	Boundary%		% of runs scored in boundaries		>20-30
+6.	Batting Position	Order in which the batter played	>4
+7.	Innings bowled		Total inning Bowled by the bowler	>1
+-----------------------------------------------------------------------------
+ALL-ROUNDERS / LOWER ORDER :
+
+	PARAMETERS		DESCRIPTION 				CRITERIA
+1.	Batting Average		Average runs scored in a inning		>15
+2. 	Strike rate		No of runs scored per 100 balls		>140
+3.	Innings Batted		Total Innings batted			>2
+4.	Batting Position	Order in which the batter played	>4
+5.	Innings Bowled		Total inning bowled			>2
+6.	Bowling Economy		Average run allowed per over		<7
+7.	Bowling Strike Rate	Average no of balls required		<20
+				to take a wicket
+-----------------------------------------------------------------------------
+SPECIALIST FAST BOWLERS :
+
+	PARAMETERS		DESCRIPTION 				CRITERIA
+1.	Innings Bowled		Total inning bowled			>4
+2.	Bowling Economy		Average run allowed per over		<7
+3.	Bowling Strike Rate	Average no of balls required		<16
+				to take a wicket
+4.	Bowling Style		Bowling style of player			"%FAST%"
+5.	Bowling Average		no.of run allowed per wicket		<20
+6.	Dot Ball%		% of dot balls bowled			>40
